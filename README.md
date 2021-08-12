@@ -3,13 +3,17 @@ WiLdTuRkEy's Clusterbomb Plugin
 
 see https://forums.alliedmods.net/showthread.php?p=1789358
  
-This is pretty much what the title says. It allows you to toss a clusterbomb that can be customized via cvars. It can also set up as admin-only or for all players. I built this with HL2 in mind, but it should work for any mod as long as you set the model and sound cvars to something that exists in that mod.
+This is pretty much what the title says. It allows you to toss a clusterbomb that can be customized via cvars. It can also set up as admin-only or for all
+players. I built this with HL2 in mind, but it should work for any mod as long as you set the model and sound cvars to something that exists in that mod.
 
 How it works...
 
     You fire the command.
     A canister is thrown in the direction/pitch you are aiming. The model is models/props_junk/PropaneCanister001a.mdl, but you can change it to anything.
-    2.5 seconds later (default time), the canister expels 10 (default) grenades into the air. The expulsion pattern depends on the vertvel, spreadvel, and variation cvars. By default, they just get thrown up a little and spread a little. Grenade models are models/Weapons/w_grenade.mdl, but can be whatever you want. NOTE! Some models tend to get stuck inside of each other and they all just freeze together. You just need to try some and find good ones that don't. ;)
+    2.5 seconds later (default time), the canister expels 10 (default) grenades into the air. The expulsion pattern depends on the vertvel, spreadvel, and
+    variation cvars. By default, they just get thrown up a little and spread a little. Grenade models are models/Weapons/w_grenade.mdl, but can be whatever
+    you want. NOTE! Some models tend to get stuck inside of each other and they all just freeze together. You just need to try some and find good ones that
+    don't. ;)
     Each grenade explodes at a random time between 0.5 and 1.0 seconds after being expelled.
 
 Note... You can also knock someone out if you hit them with the canister itself.
@@ -36,4 +40,5 @@ ConVars
     sm_cbomb_detonation_sound - The sound made when the clusters are spawned.
     sm_cbomb_version - duh...
 
-A cfg file will automatically be created with some default values here -> gamemod/cfg/sourcemod/sm_cbomb.cfg. Note that you can also change things on-the-fly in-game (including models and sounds).
+A cfg file will automatically be created with some default values here -> gamemod/cfg/sourcemod/sm_cbomb.cfg. Note that you can also change things on-the-fly
+in-game (including models and sounds).
