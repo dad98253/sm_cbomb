@@ -44,5 +44,5 @@ ConVars
 A cfg file will automatically be created with some default values here -> gamemod/cfg/sourcemod/sm_cbomb.cfg. Note that you can also change things on-the-fly
 in-game (including models and sounds).
 
-Hint: To help with gameplay, try entering the following key mapping -> bind 9 "say !cb"
-      The just press the 9 key to launch the cluster bomb!
+    Hint: To help with gameplay, try entering the following key mapping -> bind 9 "say !cb"
+          Then just press the 9 key to launch the cluster bomb!
