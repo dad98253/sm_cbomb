@@ -9,11 +9,12 @@ players. I built this with HL2 in mind, but it should work for any mod as long a
 How it works...
 
     You fire the command.
-    A canister is thrown in the direction/pitch you are aiming. The model is models/props_junk/PropaneCanister001a.mdl, but you can change it to anything.
-    2.5 seconds later (default time), the canister expels 10 (default) grenades into the air. The expulsion pattern depends on the vertvel, spreadvel, and
-    variation cvars. By default, they just get thrown up a little and spread a little. Grenade models are models/Weapons/w_grenade.mdl, but can be whatever
-    you want. NOTE! Some models tend to get stuck inside of each other and they all just freeze together. You just need to try some and find good ones that
-    don't. ;)
+    A canister is thrown in the direction/pitch you are aiming. The model is models/props_junk/PropaneCanister001a.mdl,
+    but you can change it to anything. 2.5 seconds later (default time), the canister expels 10 (default) grenades into
+    the air. The expulsion pattern depends on the vertvel, spreadvel, and variation cvars. By default, they just get
+    thrown up a little and spread a little. Grenade models are models/Weapons/w_grenade.mdl, but can be whatever you
+    want. NOTE! Some models tend to get stuck inside of each other and they all just freeze together. You just need to
+    try some and find good ones that don't. ;)
     Each grenade explodes at a random time between 0.5 and 1.0 seconds after being expelled.
 
 Note... You can also knock someone out if you hit them with the canister itself.
